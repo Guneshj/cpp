@@ -1,0 +1,100 @@
+git clone :
+	This command is used to make a copy of a repository from an existing URL. If I want a local copy of my repository from GitHub, this command allows creating a local copy of that repository on your local directory from the repository URL.
+SYNTAX :
+	$ git clone URL  
+
+
+git pull :
+	Pull command is used to receive data from GitHub. It fetches and merges changes on the remote server to your working directory.
+SYNTAX : 
+	$ git pull URL 
+
+
+git add :
+	This command is used to add one or more files to staging (Index) area.
+SYNTAX :
+	$ git add Filename  
+to add more than one file 
+	$ git add*  
+
+	
+git commit :
+	This command changes the head. It records or snapshots the file permanently in the version history with a message.
+	This command commits any files added in the repository with git add and also commits any files you've changed since then.
+SYNTAX :
+	$ git commit -m " Commit Message"
+	$ git commit -a  
+
+
+git push :
+	It is used to upload local repository content to a remote repository. Pushing is an act of transfer commits from your local repository to a remote repo
+SYNTAX :
+	$ git push
+
+
+git branch :
+	This command lists all the branches available in the repository.
+SYNTAX :
+	$ git branch  
+
+
+git checkout :
+	In addition to checking out old commits and old file revisions, git checkout is also the means to navigate existing branches. Combined with the basic Git commands, it’s a way to work on a particular line of development
+
+git clean :
+	Removes untracked files from the working directory. This is the logical counterpart to git reset, which (typically) only operates on tracked files.
+
+git commit--amend :
+	Passing the --amend flag to git commit lets you amend the most recent commit. This is very useful when you forget to stage a file or omit important information from the commit message.
+
+git config :
+	This command configures the user. The Git config command is the first and necessary command used on the Git command line. This command sets the author name and email address to be used with your commits. Git config is also used in other scenarios.
+SYNTAX :
+	$ git config --global user.name "ImDwivedi1"  
+	$ git config --global user.email "Himanshudubey481@gmail.com"  
+
+	
+git fetch :
+	Fetching downloads a branch from another repository, along with all of its associated commits and files. But, it doesn't try to integrate anything into your local repository. This gives you a chance to inspect changes before merging them with your project.
+
+git init :
+	This command is used to create a local repository.
+SYNTAX :
+	$ git init Demo  
+
+	
+git log :
+	This command is used to check the commit history.
+SYNTAX :
+	$ git log  
+
+
+git merge :
+	This command is used to merge the specified branch?s history into the current branch.
+SYNTAX :
+	$ git merge BranchName  
+
+
+git rebase :
+	Rebasing lets you move branches around, which helps you avoid unnecessary merge commits. The resulting linear history is often much easier to understand and explore.
+
+git rebase-i :
+	The -i flag is used to begin an interactive rebasing session. This provides all the benefits of a normal rebase, but gives you the opportunity to add, edit, or delete commits along the way.
+
+git reflog :
+	Git keeps track of updates to the tip of branches using a mechanism called reflog. This allows you to go back to changesets even though they are not referenced by any branch or tag.
+
+git remote :
+	Git Remote command is used to connect your local repository to the remote server. This command allows you to create, view, and delete connections to other repositories. These connections are more like bookmarks rather than direct links into other repositories. This command doesn't provide real-time access to repositories.
+SYNTAX :
+	$ git remote
+
+
+git revert :
+	Undoes a committed snapshot. When you discover a faulty commit, reverting is a safe and easy way to completely remove it from the code base.
+
+git status :
+	The status command is used to display the state of the working directory and the staging area. It allows you to see which changes have been staged, which haven't, and which files aren?t being tracked by Git. It does not show you any information about the committed project history. For this, you need to use the git log. It also lists the files that you've changed and those you still need to add or commit.
+SYNTAX :
+	$ git status  
+
