@@ -1,0 +1,19 @@
+C++ Synatx :
+
+#include <iostream>
+using namespace std;
+int main(){
+	cout<<"Hello";
+	return 0;
+}
+
+#include <iostream> - is a Header file library that lets us work with input and output objects such as cout.
+							Header files add functionality to c++ programs.
+
+using namespace std;- means that we can use names for objects and variables from the standard library.
+
+int main() - this is a function. Any code inside its curly brackets {} will be executed.
+
+cout - is an object used together with the insertion operator(<<) to output/print text.
+ 
+return 0 - ends the main function.

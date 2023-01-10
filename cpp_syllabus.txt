@@ -1,0 +1,22 @@
+1. CPP Introduction
+
+What is C++
+. C++ is a cross-platform language that can be used to create high-performance applications.
+. C++ was developed by Bjarne Stroustrup, as an extension to the C language.
+
+Why use c++
+. It one of the world's most popular programming languages.
+. It can be found in today's operating systems, GUI, and embedded systems.
+. It is an object-oriented programming language 
+. It is portable and can be used to develop applications that can be adapted to multiple platforms.
+. It is easy to learn.
+
+
+Text Editor :
+	A text editor referes to any form of computer program that enables users to create, change, edit, open and view plain text files.
+They come already installed on most OS but their dominant application has evolved from notetaking and creating DOCS to crafting complex code.
+
+C++ COMPILER :
+	compilers analyze and convert source code written in lang. such as java, c#, C++.
+There are many compilers are present in market such as : GNU Compiler, Microsoft Visual Studio, LCC
+
