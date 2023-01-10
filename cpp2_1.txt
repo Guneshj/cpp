@@ -1,0 +1,100 @@
+Class - It is Blueprint of object.
+		  It is a user defined data type which holds its own data members and member functions
+Syntax -
+class ClassName
+{ Access specifier // can be private, public or protected
+ data members; //Variables to be used
+member Functions(){} //Methods to access data members
+
+}; // Class name eds with a semicolon
+
+
+Object - It is an instance of a Class.
+		   When a class is defined, no memory is allocated but when it is instantiated (an object is created)memory is allocated.
+Syntax - ClassName objectName;
+
+#include <iostream>
+using namespace std;
+class Car {
+
+	public :
+	string crnam;
+// Member Function
+	void printname() {cout << "My car is :"<< crnam;}
+};
+int main(){
+// Declare an object of class Car
+	Car obj1;
+	
+// accesssing data member
+	obj1.crnam = "BMW";
+// accessing member function
+	obj.printname();
+	return 0;
+}
+
+
+
+Methods - 2 types
+
+1. Inside Class Defination - 
+				The member function is defined inside the class defination it can be defined directly.
+Syntax - 
+class class_name{
+	public:
+	return_type method_name()//method inside class defination
+	{
+	//body of member function
+	}
+};
+
+Eg- 
+#include <iostream>
+using namespace std;
+
+class MyClass {
+	public:
+		void myMethod(){
+		cout << "Inside class Method";
+}
+};
+int main (){
+	MyClass myObj;
+	myObj.myMethod();
+return 0;
+}
+
+
+2. Outside the Class method
+			It is defined using scope resolution operator (::)
+syntax :
+	Class ClassName{
+	public:
+		return_type method_name();//method outside class defination
+
+};
+//Outside the class using scope resolution operator
+return_type Class_name::Method_name(){
+//Body
+}
+
+eg-
+
+class MyClass {
+public:
+void myMethod();
+};
+
+void MyClass :: myMethod(){
+	cout << "Hello";
+}
+
+int main(){
+	MyClass c;
+	c.myMethod();
+	return 0;
+}
+
+IDENTIFIRES :
+
+C++ identifiers in a program are used to refer to the name of the variables, functions, arrays, or other user-defined data types created by the programmer.
