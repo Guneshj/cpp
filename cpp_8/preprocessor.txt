@@ -1,0 +1,46 @@
+Preprocessor -
+				preprocessor programs provide precessor directives that tell the compiler to preprocess the source code before compiling.
+- All of these preprocessor directives begin with a # (hash) symbol
+- The # symbol indicates that whatever statement start with # will go to the preprocessor program to executed.
+- preprocessor directives - #include, #define, #ifndef.
+
+1. Macros -
+- Macros are pieces of code in a program that is given some name
+- Whenever this name is encountered by the compiler
+- the compiler replaces the name with the actual piece of code
+- The #define directive is used to define a macro.
+
+#include <iostream>
+//macro defination
+#define LIMIT 5
+
+int main(){
+	for (int i = 0; i < LIMIT; i++){
+	cout << i << "\n";
+}
+return 0;
+}
+
+o\p - 1
+2
+3
+4
+5
+
+// When the compiler executes the word LIMIT it replace it with 5.
+
+2. File Inclusion -
+- This type of preprocessor directive tells the compiler to include a file in the source code program.
+- There are 2 types of files that can be included by the user in the program
+
+2.1 Header files or Standard files -
+- these files contain definations of pre-defined functions like printf() scanf()
+- Standard I\O functions are in the Iostream file whereas functions that perform string operations are in the string file
+
+Syntax - #include < file_name> 
+
+2.2 User defined files -
+- When a program becomes very large, It is good practice to divide it into smaller files and include them whenever needed.
+- These types of files are user-defined files 
+
+syntax - #include "filename"
