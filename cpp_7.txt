@@ -1,0 +1,12 @@
+Input / Output in C++, Iostream, fstream
+
+iostream - 
+			iostream stands for standard i/o stream. This header file contains definitions of objects like cin, cout, cerr,etc
+eg- #include<iostream>
+iomanip -
+			Its stands for i/o Manipulating streams.The methods declared in these files are used for manipulating streams. 
+This file contains definitions of setw, setprecision.
+
+fstream - 
+			This header file mainly describes the file stream.
+This header file is used to handle the data being read from a file as input or data being written into the file as output 
